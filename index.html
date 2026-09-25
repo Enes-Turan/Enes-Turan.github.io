@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enes Turan - CV</title>
+  <style>
+    :root {
+      --text-color: #1a1a1a;
+      --muted-color: #555;
+      --border-color: #222;
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-family);
+      color: var(--text-color);
+      background-color: #f7f9fa;
+      line-height: 1.55;
+      padding: 40px 15px;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 50px 60px;
+      border-radius: 6px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      position: relative;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 22px;
+      padding-top: 10px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      letter-spacing: 0.5px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+
+    header .subtitle {
+      font-size: 15px;
+      color: #333;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    header .contact-info {
+      font-size: 13px;
+      color: var(--muted-color);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    header .contact-info a {
+      color: var(--text-color);
+      text-decoration: none;
+    }
+
+    header .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .separator { color: #aaa; }
+
+    .summary {
+      font-size: 13.5px;
+      text-align: center;
+      color: #333;
+      margin: 15px auto 25px auto;
+      max-width: 720px;
+      font-style: italic;
+    }
+
+    section { margin-bottom: 24px; }
+
+    h2.section-title {
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 800;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid var(--border-color);
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+
+    .item { margin-bottom: 18px; }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+
+    .item-title {
+      font-size: 14.5px;
+      font-weight: 700;
+    }
+
+    .item-date {
+      font-size: 12.5px;
+      color: #666;
+    }
+
+    .item-tags {
+      font-size: 12px;
+      color: #666;
+      font-style: italic;
+      margin-bottom: 6px;
+    }
+
+    ul.bullets {
+      padding-left: 20px;
+      font-size: 13px;
+      color: #2b2b2b;
+    }
+
+    ul.bullets li { margin-bottom: 4px; }
+
+    @media (max-width: 600px) {
+      .container { padding: 30px 20px; }
+      .item-header { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Enes Turan</h1>
+      <div class="subtitle">Oyun Geliştirici (Unity) / Yazılım Mühendisi</div>
+      <div class="contact-info">
+        <span>Bursa, Türkiye</span>
+        <span class="separator">|</span>
+        <a href="mailto:eposta@adresin.com">eposta@adresin.com</a>
+        <span class="separator">|</span>
+        <a href="https://github.com/Enes-Turan" target="_blank">github.com/Enes-Turan</a>
+        <span class="separator">|</span>
+        <a href="https://linkedin.com/in/kullaniciadin" target="_blank">linkedin.com/in/kullaniciadin</a>
+      </div>
+    </header>
+
+    <div class="summary">
+      Kırklareli Üniversitesi Yazılım Mühendisliği son sınıf öğrencisiyim. Unity ve C# odaklı oyun geliştirme süreçlerinde mekanik tasarımı, temel oyun mimarileri ve etkileşimli sistemler üzerine çalışıyorum. Nesne yönelimli programlama, yazılım tasarım desenleri ve performans optimizasyonu prensiplerini oyun sistemlerine entegre etmeye odaklıyım. Üretime hazır, temiz, modüler ve sürdürülebilir oyun mekanikleri ile etkileşimli sistemler geliştiriyorum.
+    </div>
+
+    <!-- EĞİTİM -->
+    <section>
+      <h2 class="section-title">Eğitim</h2>
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">Kırklareli Üniversitesi — Yazılım Mühendisliği (Lisans)</div>
+          <div class="item-date">2023 — Günümüz</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DENEYİM -->
+    <section>
+      <h2 class="section-title">Deneyim</h2>
+
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">Oyun Geliştirici (Uzaktan) — Kodpilot</div>
+          <div class="item-date">2026 — Günümüz</div>
+        </div>
+        <ul class="bullets">
+          <li>Unity ve C# kullanarak dijital oyun masalarına yönelik etkileşimli oyun mekanikleri, çok kullanıcılı masa/tur döngüleri ve dokunmatik giriş sistemleri geliştirme.</li>
+          <li>Masaüstü oyun dinamiğine uygun state yönetimi, modüler servisler ve yeniden kullanılabilir mimariler tasarlayarak projeler arası kod tekrarını minimize etme.</li>
+          <li>Farklı ekran boyutları ve masa perspektiflerine uyumlu UI/UX arayüzleri, animasyonlar ve gerçek zamanlı görsel geri bildirim sistemleri entegre etme.</li>
+          <li>Performans optimizasyonu ve bellek yönetimini optimize ederek donanım üzerinde stabil ve akıcı bir oyun deneyimi sağlama.</li>
+          <li>Git tabanlı iş akışları, versiyon kontrolü ve düzenli kod inceleme (code review) süreçlerine aktif katılım sağlama.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">Yazılım & Oyun Geliştirici Stajyeri — Kodpilot</div>
+          <div class="item-date">2026</div>
+        </div>
+        <ul class="bullets">
+          <li>C# ve Unity tabanlı proje geliştirme süreçlerine dahil olarak staj kapsamında temel oyun mimarileri ve mekanik prototipleme üzerine çalışma.</li>
+          <li>Nesne yönelimli programlama (OOP) ve temiz kod (Clean Code) prensiplerini gerçek hayat senaryolarında uygulama deneyimi kazanma.</li>
+          <li>Karşılaşılan teknik problemlerin çözümü, hata ayıklama (debugging) ve performans optimizasyonu süreçlerine katkıda bulunma.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJELER -->
+    <section>
+      <h2 class="section-title">Projeler</h2>
+
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">Dijital Oyun Masası — Çok Oyunculu Masa & Casual Oyunlar</div>
+          <div class="item-date">2026 — Günümüz</div>
+        </div>
+        <div class="item-tags">Unity, C#, aynı cihazda multiplayer, dokunmatik ekran sistemleri, modüler mimari</div>
+        <ul class="bullets">
+          <li>Fiziksel dijital oyun masası platformu için aynı cihazda çok oyunculu (multi-touch) masa ve casual türlerinde oyun sistemleri geliştirdim.</li>
+          <li>Masa dinamiklerine uygun senkronize tur akışı, oyuncu etkileşimleri, input yönetimi ve ortak masa UI animasyonlarını kurguladım.</li>
+          <li>Yeniden kullanılabilir modüler mimariler ve state yönetimleri uygulayarak yeni oyunların hızlı üretim süreçlerine katkı sağladım.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">FinkTower — Kule Dizme Mekaniği</div>
+          <div class="item-date">2026</div>
+        </div>
+        <div class="item-tags">Unity, C#, stacking mechanics, timing & input systems</div>
+        <ul class="bullets">
+          <li>Zamanlama tabanlı kule dizme mekaniğini ve blok kesme/hizalama algoritmasını geliştirdim.</li>
+          <li>Başarılı yerleşim kombinasyonları, dinamik kamera yükselmesi ve oyun hızlanma döngüsünü kurguladım.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">Block Blast Mekaniği — 2D Izgara & Eşleştirme Sistemi</div>
+          <div class="item-date">2026</div>
+        </div>
+        <div class="item-tags">Unity, C#, puzzle algorithms, drag & drop, feedback systems</div>
+        <ul class="bullets">
+          <li>8x8 ızgara üzerinde farklı formlardaki blokların yerleşim kontrolleri, matris tarama ve satır/sütun temizleme algoritmalarını kodladım.</li>
+          <li>Sürükle-bırak girdi etkileşimlerini, blok önizleme sistemini ve dinamik kombo animasyonlarını geliştirdim.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- YETKİNLİKLER -->
+    <section>
+      <h2 class="section-title">Yetkinlikler</h2>
+      <ul class="bullets">
+        <li><strong>Diller & Motorlar:</strong> C#, Unity, Java, Python, C, SQL</li>
+        <li><strong>Oyun Geliştirme:</strong> Gameplay Mechanics, Multi-touch Input Systems, State Machines, Object Pooling, UI/UX Entegrasyonu</li>
+        <li><strong>Mimariler & Araçlar:</strong> OOP, Design Patterns, Git, GitHub, Clean Code, Performance Profiling</li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+</html>
